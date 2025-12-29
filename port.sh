@@ -4,11 +4,11 @@
 
 # For A-only and V/A-B (not tested) Devices
 
-# Based on Android 14 
+# Based on Android 16
 
-# Test Base ROM: OnePlus 8T (ColorOS_14.0.0.600)
+# Test Base ROM: OnePlus 9 Pro(ColorOS_14.0.0.600)
 
-# Test Port ROM: OnePlus 12 (ColorOS_14.0.0.810), OnePlus ACE3V(ColorOS_14.0.1.621) Realme GT Neo5 240W(RMX3708_14.0.0.800)
+# Test Port ROM: OnePlus 15 (ColorOS_16.0.2.402)
 
 build_user="Bruce Teng"
 build_host=$(hostname)
