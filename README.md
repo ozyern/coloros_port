@@ -3,7 +3,7 @@
 
 # ColorOS Porting Project
 
-[简体中文](/README.md)&nbsp;&nbsp;|&nbsp;&nbsp;English
+
 
 </div>
 
@@ -31,7 +31,6 @@
 
 ## BUG
 
-- AOD is too dim
 - Voice trigger is not working
 - Poweroff charging is not working
 - WiredEarphone is not working
@@ -43,22 +42,11 @@
     sudo apt upgrade
     sudo apt install git -y
     # Clone project
-    git clone https://github.com/toraidl/coloros_port_kebab.git
-    cd coloros_port_kebab
+    git clone https://github.com/qvznr/coloros_port.git
+    cd coloros_port_keb
     # Install dependencies
     sudo ./setup.sh
     # Start porting
     sudo ./port.sh <baserom> <portrom>
 ```
 - baserom and portrom can be a direct download link. you can get the ota download link  from third-party websites.
-
-## Credits
-> In this project, some or all of the content is derived from the following open-source projects. Special thanks to the developers of these projects.
-
-- [「BypassSignCheck」by Weverses](https://github.com/Weverses/BypassSignCheck)
-- [「contextpatch」 by ColdWindScholar](https://github.com/ColdWindScholar/TIK)
-- [「fspatch」by affggh](https://github.com/affggh/fspatch)
-- [「gettype」by affggh](https://github.com/affggh/gettype)
-- [「lpunpack」by unix3dgforce](https://github.com/unix3dgforce/lpunpack)
-- [「miui_port」by ljc-fight](https://github.com/ljc-fight/miui_port)
-- etc
